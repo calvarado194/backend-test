@@ -22,8 +22,9 @@ El string indicado como input para el problema se encuentra en `ejercicio-3/inpu
 Adicionalmente, entrego el archivo `test.txt` con strings de prueba que utilicé para testear y debuggear el script.
 
 ### Ejercicio 4: Consumo API Envíame para la creación de un envío
-Desarrolla una función o script que consuma la API Envíame para la creación de un Envío y almacene la respuesta en algún medio de almacenamiento permanente.
-Documentación (Postman) del endpoint a usar: [Colección Postman](https://github.com/enviame/backend-test/blob/main/Backend-test.postman_collection.json)
+dentro del directorio `ejercicio-4` se encuentra un script en Python 3 que ejecuta una llamada al endpoint entregado en la documentación y almacena la respuesta en el archivo `response.json`. Para llamarlo, solo se necesita ejecutar `python3 ejercicio-4/main.py` en el directorio raíz del repositorio. El resultado se encontrará en la raíz también.
+
+Este script utiliza la librería **requests** de Python. En caso de no tenerla instalada, se puede instalar con un simple `pip3 install requests`
 
 ### Ejercicio 5
 
