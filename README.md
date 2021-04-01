@@ -1,22 +1,16 @@
 ### Backend Test: Desafío Envíame
 
-El siguiente desafío, busca conocer más respecto a tus habilidades técnicas para abordar y solucionar diferentes problemas. El desafío consta de 7 etapas, las cuales, evaluaremos de manera independiente.
+El siguiente README entrega las instrucciones para ejecutar cada uno de los ejercicios, de acuerdo a lo solicitado.
 
-**Asegurate de dejar tu trabajo en un repositorio de github y al finalizar tu tarea nos compartes el repositorio donde deben incluirse todas las instrucciones para que podamos ejecutar tu trabajo de manera local.**
-
-#### Importante: ####
-**Los lenguajes a utilizar pueden ser: php, python, node.js**
-
-En caso de preguntas dirigete a: *tech-test@enviame.io*, usando el asunto [Backend-Test]
 
 ### Ejercicio 1: Docker
 
-Configura un ambiente en docker que permita ejecutar un entorno web con el stack a tu elección. 
-El contenedor de la base de datos debe ser diferente al que contenga tu aplicación, ej: Contenedor 1: Nginx, Contenedor 2: Mysql (composición de servicios docker)
+dentro del directorio `ejercicio-1` se encuentran un archivo Dockerfile y un docker-compose.yml. Para levantar el entorno, basta con ejecutar un `docker-compose up --build`
 
 ### Ejercicio 2: API REST + CRUD
 
-Dentro del ambiente dockerizado desarrolla una API Rest, con el stack de tu preferencia, que implemente un CRUD de una entidad tipo 'empresa'. Preocupate de incluir un script que genere N registros con datos "fake" (utilizando una librería faker).
+Una vez levantado y ejecutado el entorno docker del ejercicio 1, se habrá iniciado un servicio web en el puerto 80. Una query a `http://localhost/hello` les dará un saludo.
+Para revisar cada endpoint y sus métodos de uso, pueden visitar `http://localhost/docs`
 
 ### Ejercicio 3: Análisis + Desarrollo 
 
