@@ -1,0 +1,9 @@
+pytest
+requests
+sqlalchemy
+pydantic
+mysqlclient
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+Faker
