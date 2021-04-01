@@ -69,7 +69,9 @@ if __name__ == "__main__":
             if j > max_lenght:
                 response_list = [candidate_palindrome]
                 max_lenght = j
+                continue
             elif j == max_lenght:
-                response_list.append(candidate_palindrome)
+                if candidate_palindrome not in response_list:
+                    response_list.append(candidate_palindrome)
 
         print(response_list, max_lenght)
