@@ -13,18 +13,18 @@ Una vez levantado y ejecutado el entorno docker del ejercicio 1, se habrá inici
 Para revisar cada endpoint y sus métodos de uso, pueden visitar `http://localhost/docs`
 
 Las credenciales para acceso al API se entregaron vía correo.
-
 ### Ejercicio 3: Análisis + Desarrollo 
 
-Crea un script en el lenguaje de tu elección y encuentre la(s) cadena de texto que es(son) igual al revés en el siguiente texto:
+Dentro del directorio `ejercicio-3` se encuentra un script en Python 3 que recibe input desde stdin. Si la línea es "exit", el script termina ejecución. De lo contrario, el script lee la línea proveniente de stdin e imprime en pantalla todos los substrings palíndromos de largo máximo encontrados en el string, y su largo. Este script además puede recibir archivos de texto desde consola vía redirección de input.
 
-`afoolishconsistencyisthehobgoblinoflittlemindsadoredbylittlestatesmenandphilosophersanddivineswithconsistencyagreatsoulhassimplynothingtodohemayaswellconcernhimselfwithhisshadowonthewallspeakwhatyouthinknowinhardwordsandtomorrowspeakwhattomorrowthinksinhardwordsagainthoughitcontradicteverythingyousaidtodayahsoyoushallbesuretobemisunderstoodisitsobadthentobemisunderstoodpythagoraswasmisunderstoodandsocratesandjesusandlutherandcopernicusandgalileoandnewtonandeverypureandwisespiritthatevertookfleshtobegreatistobemisunderstood`
+El string indicado como input para el problema se encuentra en `ejercicio-3/input.txt`. Para obtener el resultado, basta ejecutar en consola `python3 ejercicio-3/main.py < ejercicio-3/input.txt` desde el directorio raíz del repositorio.
 
 ### Ejercicio 4: Consumo API Envíame para la creación de un envío
 Desarrolla una función o script que consuma la API Envíame para la creación de un Envío y almacene la respuesta en algún medio de almacenamiento permanente.
 Documentación (Postman) del endpoint a usar: [Colección Postman](https://github.com/enviame/backend-test/blob/main/Backend-test.postman_collection.json)
 
 ### Ejercicio 5
+
 Dentro del directorio `ejercicio-5` se encuentra un script en Python 3 que imprime a consola números de la sucesión de Fibonacci y la cantidad de divisores que tienen, hasta que encuentre el primer número en la sucesión con más de 1000 divisores. El script no tiene dependencias fuera de la librería estándar de Python, así que se puede ejecutar directamente con `python ejercicio-5/main.py` desde el directorio raíz del repositorio.
 
 
