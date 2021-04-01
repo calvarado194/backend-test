@@ -19,6 +19,8 @@ Dentro del directorio `ejercicio-3` se encuentra un script en Python 3 que recib
 
 El string indicado como input para el problema se encuentra en `ejercicio-3/input.txt`. Para obtener el resultado, basta ejecutar en consola `python3 ejercicio-3/main.py < ejercicio-3/input.txt` desde el directorio raíz del repositorio.
 
+Adicionalmente, entrego el archivo `test.txt` con strings de prueba que utilicé para testear y debuggear el script.
+
 ### Ejercicio 4: Consumo API Envíame para la creación de un envío
 Desarrolla una función o script que consuma la API Envíame para la creación de un Envío y almacene la respuesta en algún medio de almacenamiento permanente.
 Documentación (Postman) del endpoint a usar: [Colección Postman](https://github.com/enviame/backend-test/blob/main/Backend-test.postman_collection.json)
