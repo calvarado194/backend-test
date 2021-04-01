@@ -5,12 +5,14 @@ El siguiente README entrega las instrucciones para ejecutar cada uno de los ejer
 
 ### Ejercicio 1: Docker
 
-dentro del directorio `ejercicio-1` se encuentran un archivo Dockerfile y un docker-compose.yml. Para levantar el entorno, basta con ejecutar un `docker-compose up --build`
+Dentro del directorio `ejercicio-1` se encuentran un archivo Dockerfile y un docker-compose.yml. Para levantar el entorno, basta con ejecutar un `docker-compose up --build`
 
 ### Ejercicio 2: API REST + CRUD
 
 Una vez levantado y ejecutado el entorno docker del ejercicio 1, se habrá iniciado un servicio web en el puerto 80. Una query a `http://localhost/hello` les dará un saludo.
 Para revisar cada endpoint y sus métodos de uso, pueden visitar `http://localhost/docs`
+
+Las credenciales para acceso al API se entregaron vía correo.
 
 ### Ejercicio 3: Análisis + Desarrollo 
 
@@ -22,28 +24,8 @@ Crea un script en el lenguaje de tu elección y encuentre la(s) cadena de texto 
 Desarrolla una función o script que consuma la API Envíame para la creación de un Envío y almacene la respuesta en algún medio de almacenamiento permanente.
 Documentación (Postman) del endpoint a usar: [Colección Postman](https://github.com/enviame/backend-test/blob/main/Backend-test.postman_collection.json)
 
-### Ejercicio 5: Análisis + Desarrollo
-La serie de Fibonacci se construye utilizando la siguiente relación de recurrencia: `Fn = Fn1 + Fn2, donde F1 = 1 y F2 = 1`. Por ende, los primeros doce términos de esta serie son: `1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144`
-
-Ahora, consideremos los divisores de estos términos:
-
-```text
-1 = 1
-1 = 1
-2 = 1, 2
-3 = 1, 3
-5  = 1, 5
-8 = 1, 2, 4, 8
-13 = 1, 13
-21 = 1, 3, 7, 21
-34 = 1, 2, 17, 34
-55 = 1, 5, 11, 55
-89 = 1, 89
-144 = 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 36, 48, 72, 144
-```
-
-Como se puede ver, 144 es el primer número de la serie de Fibonacci que tiene más de 10 divisores (de hecho tiene 15).
-Crea un script en tu lenguaje favorito que obtenga el primer número de Fibonacci que tiene más de 1000 divisores.
+### Ejercicio 5
+Dentro del directorio `ejercicio-5` se encuentra un script en Python 3 que imprime a consola números de la sucesión de Fibonacci y la cantidad de divisores que tienen, hasta que encuentre el primer número en la sucesión con más de 1000 divisores. El script no tiene dependencias fuera de la librería estándar de Python, así que se puede ejecutar directamente con `python ejercicio-5/main.py` desde el directorio raíz del repositorio.
 
 
 ### Ejercicio 6: Análisis + Desarrollo Aplicado a Negocio
