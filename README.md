@@ -22,7 +22,7 @@ El string indicado como input para el problema se encuentra en `ejercicio-3/inpu
 Adicionalmente, entrego el archivo `test.txt` con strings de prueba que utilicé para testear y debuggear el script.
 
 ### Ejercicio 4: Consumo API Envíame para la creación de un envío
-dentro del directorio `ejercicio-4` se encuentra un script en Python 3 que ejecuta una llamada al endpoint entregado en la documentación y almacena la respuesta en el archivo `response.json`. Para llamarlo, solo se necesita ejecutar `python3 ejercicio-4/main.py` en el directorio raíz del repositorio. El resultado se encontrará en la raíz también.
+Dentro del directorio `ejercicio-4` se encuentra un script en Python 3 que ejecuta una llamada al endpoint entregado en la documentación y almacena la respuesta en el archivo `response.json`. Para llamarlo, solo se necesita ejecutar `python3 ejercicio-4/main.py` en el directorio raíz del repositorio. El resultado se encontrará en la raíz también.
 
 Este script utiliza la librería **requests** de Python. En caso de no tenerla instalada, se puede instalar con un simple `pip3 install requests`
 
@@ -32,20 +32,8 @@ Dentro del directorio `ejercicio-5` se encuentra un script en Python 3 que impri
 
 
 ### Ejercicio 6: Análisis + Desarrollo Aplicado a Negocio
-Desarrolla una función o procedimiento que estime el tiempo de entrega de la entrega de una compra online (en días), en función de la distancia que existe entre una dirección de origen y destino.
-
-Suponga que los envíos siempre se despachan desde el mismo origen.
-
-Para la determinación de la distancia entre el origen y destino genere números aleatorios entre 0 km y 2.000 km
-Asuma que el tiempo de despacho está determinado por una sucesión numérica, donde cada N término se relaciona con un incremento en un rango de distancia entre la dirección de origen y de destino como se muesta a continuación.
-
-* Rango 1. Menos de 100 km, se entregan el mismo día (Día cero) 
-* Rango 2. Menos de 200 km, se entregan al día siguiente (Día uno)
-* Rango 3. Menos de 300 km, se entregan al día siguiente (Día uno)
-* Rango 4. Menos de 400 km, se entregan al día subsiguiente (Día dos)
-* Rango 5. Menos de 500 km, se entregan al tercer día (Día tres)
-...
-* Rango n. Menos de n km, Los días de entrega se calculan como la suma de los días de entrega de los rangos n–1 y n-2
+El directorio `ejercicio-6` contiene un script en Python 3 que genera distancias aleatorias en el rango indicado, y devuelve los tiempos estimados de entrega en formato de texto. 
+Puede ejecutarse usando `python3 ejercicio-6/main.py`. El script no tiene dependencias externas.
 
 ### Ejercicio 7: SQL
 -- Actualizar los sueldos de los empleados que ganen $5000 o menos, de acuerdo al reajuste anual del continente al que pertenecen.
