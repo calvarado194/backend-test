@@ -45,8 +45,6 @@ def auth_token():
 
 @pytest.fixture
 def test_business(auth_token):
-    fake = Faker("es_MX")
-
     test_business = {
         "name": "ACME Inc.",
         "rut": "78964585-K",
